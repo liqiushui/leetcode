@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B85B137821A7C40200F32798 /* Solution55.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85B137721A7C40200F32798 /* Solution55.swift */; };
+		B85B137D21A7C91F00F32798 /* Solution56.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85B137C21A7C91F00F32798 /* Solution56.swift */; };
+		B85B138121A7CCCF00F32798 /* Solution62.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85B138021A7CCCF00F32798 /* Solution62.swift */; };
+		B86A79B221AE913200CCD41A /* IntCustomOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A79B121AE913200CCD41A /* IntCustomOperator.swift */; };
+		B86A79B421AE944100CCD41A /* DictionaryRegisterValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A79B321AE944100CCD41A /* DictionaryRegisterValue.swift */; };
+		B86A79B821AEA86E00CCD41A /* Solution78.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A79B721AEA86E00CCD41A /* Solution78.swift */; };
+		B86A79BB21AEB4DE00CCD41A /* Solution79.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A79BA21AEB4DE00CCD41A /* Solution79.swift */; };
+		B86A79E921B0F1E300CCD41A /* Solution118.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A79E821B0F1E300CCD41A /* Solution118.swift */; };
+		B86A79ED21B0F9FC00CCD41A /* Solution119.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A79EC21B0F9FC00CCD41A /* Solution119.swift */; };
+		B86A79F121B15EA000CCD41A /* Solution94.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A79F021B15EA000CCD41A /* Solution94.swift */; };
+		B86A79F521B1620F00CCD41A /* Solution91.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A79F421B1620F00CCD41A /* Solution91.swift */; };
+		B86A7A1F21B4FBB000CCD41A /* Solution96.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A7A1E21B4FBB000CCD41A /* Solution96.swift */; };
+		B86A7A2321B4FE8800CCD41A /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A7A2221B4FE8800CCD41A /* Tree.swift */; };
+		B86A7A2621B4FED800CCD41A /* Solution100.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A7A2521B4FED800CCD41A /* Solution100.swift */; };
+		B86A7A2A21B500B700CCD41A /* Solution103.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A7A2921B500B700CCD41A /* Solution103.swift */; };
+		B8711A3521AC18FD0060BA79 /* Solution66.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8711A3421AC18FD0060BA79 /* Solution66.swift */; };
+		B8711A3921AC1F2A0060BA79 /* Solution69.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8711A3821AC1F2A0060BA79 /* Solution69.swift */; };
+		B8711A9221AD5DDA0060BA79 /* Solution70.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8711A9121AD5DDA0060BA79 /* Solution70.swift */; };
+		B8711A9621AD61DF0060BA79 /* Solution75.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8711A9521AD61DF0060BA79 /* Solution75.swift */; };
+		B8711A9A21AE43230060BA79 /* Solution76.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8711A9921AE43230060BA79 /* Solution76.swift */; };
+		B8ADC94721A2D51F00EB19FC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ADC94621A2D51F00EB19FC /* main.swift */; };
+		B8ADC95021A2D5B800EB19FC /* Solution7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ADC94F21A2D5B800EB19FC /* Solution7.swift */; };
+		B8ADC95421A2DD2F00EB19FC /* Solution_8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ADC95321A2DD2F00EB19FC /* Solution_8.swift */; };
+		B8ADC95721A2DEA300EB19FC /* StringSubIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ADC95621A2DEA300EB19FC /* StringSubIndex.swift */; };
+		B8B0A32C21A433760003C3F1 /* Solution28.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A32B21A433760003C3F1 /* Solution28.swift */; };
+		B8B0A33021A577FE0003C3F1 /* Solution36.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A32F21A577FE0003C3F1 /* Solution36.swift */; };
+		B8B0A33421A580740003C3F1 /* Solution54.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A33321A580740003C3F1 /* Solution54.swift */; };
+		B8B0A38B21A670E50003C3F1 /* Solution53.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A38A21A670E50003C3F1 /* Solution53.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B8ADC94121A2D51F00EB19FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B85B137721A7C40200F32798 /* Solution55.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution55.swift; sourceTree = "<group>"; };
+		B85B137921A7C42800F32798 /* WX20181123-131401.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WX20181123-131401.png"; sourceTree = "<group>"; };
+		B85B137B21A7C90C00F32798 /* WX20181123-133440.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WX20181123-133440.png"; sourceTree = "<group>"; };
+		B85B137C21A7C91F00F32798 /* Solution56.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution56.swift; sourceTree = "<group>"; };
+		B85B137F21A7CCC400F32798 /* WX20181123-135018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WX20181123-135018.png"; sourceTree = "<group>"; };
+		B85B138021A7CCCF00F32798 /* Solution62.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution62.swift; sourceTree = "<group>"; };
+		B86A79B121AE913200CCD41A /* IntCustomOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntCustomOperator.swift; sourceTree = "<group>"; };
+		B86A79B321AE944100CCD41A /* DictionaryRegisterValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRegisterValue.swift; sourceTree = "<group>"; };
+		B86A79B621AEA85400CCD41A /* 企业微信截图_9ea85010-c768-477d-a708-7176aa347e52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_9ea85010-c768-477d-a708-7176aa347e52.png"; sourceTree = "<group>"; };
+		B86A79B721AEA86E00CCD41A /* Solution78.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution78.swift; sourceTree = "<group>"; };
+		B86A79BA21AEB4DE00CCD41A /* Solution79.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution79.swift; sourceTree = "<group>"; };
+		B86A79BC21AEB4E700CCD41A /* 企业微信截图_444eb2c8-59ef-4e53-825b-54c6ff169fbc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_444eb2c8-59ef-4e53-825b-54c6ff169fbc.png"; sourceTree = "<group>"; };
+		B86A79E721B0F1D000CCD41A /* 企业微信截图_fdb504ac-4832-438e-b4a7-55539ff16539.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_fdb504ac-4832-438e-b4a7-55539ff16539.png"; sourceTree = "<group>"; };
+		B86A79E821B0F1E300CCD41A /* Solution118.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution118.swift; sourceTree = "<group>"; };
+		B86A79EB21B0F9EF00CCD41A /* 企业微信截图_6499206f-5f95-4c1b-8a1b-2e3312b4651f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_6499206f-5f95-4c1b-8a1b-2e3312b4651f.png"; sourceTree = "<group>"; };
+		B86A79EC21B0F9FC00CCD41A /* Solution119.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution119.swift; sourceTree = "<group>"; };
+		B86A79EF21B15E9100CCD41A /* 企业微信截图_1bfdae79-c111-4a1c-b32e-5022ad654804.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_1bfdae79-c111-4a1c-b32e-5022ad654804.png"; sourceTree = "<group>"; };
+		B86A79F021B15EA000CCD41A /* Solution94.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution94.swift; sourceTree = "<group>"; };
+		B86A79F321B1620400CCD41A /* 企业微信截图_1b79d0ce-7e2a-4a11-9adf-6ba622bc2180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_1b79d0ce-7e2a-4a11-9adf-6ba622bc2180.png"; sourceTree = "<group>"; };
+		B86A79F421B1620F00CCD41A /* Solution91.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution91.swift; sourceTree = "<group>"; };
+		B86A7A1D21B4FBA400CCD41A /* 企业微信截图_942e9453-ce79-412c-983e-8acdb7e4d330.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_942e9453-ce79-412c-983e-8acdb7e4d330.png"; sourceTree = "<group>"; };
+		B86A7A1E21B4FBB000CCD41A /* Solution96.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution96.swift; sourceTree = "<group>"; };
+		B86A7A2221B4FE8800CCD41A /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		B86A7A2421B4FEC600CCD41A /* 企业微信截图_d08ecd07-d9a8-4c28-b725-276363106ebe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_d08ecd07-d9a8-4c28-b725-276363106ebe.png"; sourceTree = "<group>"; };
+		B86A7A2521B4FED800CCD41A /* Solution100.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution100.swift; sourceTree = "<group>"; };
+		B86A7A2821B500AA00CCD41A /* 企业微信截图_2a9ecab2-4367-4cef-802e-aff9a0aa36ee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_2a9ecab2-4367-4cef-802e-aff9a0aa36ee.png"; sourceTree = "<group>"; };
+		B86A7A2921B500B700CCD41A /* Solution103.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution103.swift; sourceTree = "<group>"; };
+		B8711A3321AC18ED0060BA79 /* 企业微信截图_9e2dd64a-ef2a-46b6-b509-60caf6f8e080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_9e2dd64a-ef2a-46b6-b509-60caf6f8e080.png"; sourceTree = "<group>"; };
+		B8711A3421AC18FD0060BA79 /* Solution66.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution66.swift; sourceTree = "<group>"; };
+		B8711A3721AC1F1F0060BA79 /* 企业微信截图_cbf31daf-40c5-4120-a3d4-b4bee987644a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_cbf31daf-40c5-4120-a3d4-b4bee987644a.png"; sourceTree = "<group>"; };
+		B8711A3821AC1F2A0060BA79 /* Solution69.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution69.swift; sourceTree = "<group>"; };
+		B8711A9021AD5DCB0060BA79 /* 企业微信截图_15c5b00e-e07e-49f5-830c-d4a7e694f307.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_15c5b00e-e07e-49f5-830c-d4a7e694f307.png"; sourceTree = "<group>"; };
+		B8711A9121AD5DDA0060BA79 /* Solution70.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution70.swift; sourceTree = "<group>"; };
+		B8711A9421AD61D10060BA79 /* 企业微信截图_e15cae01-b795-4228-8af9-548db42357e6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_e15cae01-b795-4228-8af9-548db42357e6.png"; sourceTree = "<group>"; };
+		B8711A9521AD61DF0060BA79 /* Solution75.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution75.swift; sourceTree = "<group>"; };
+		B8711A9821AE43120060BA79 /* 企业微信截图_fcfe0a56-2fc0-4b66-b115-388676b383f7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企业微信截图_fcfe0a56-2fc0-4b66-b115-388676b383f7.png"; sourceTree = "<group>"; };
+		B8711A9921AE43230060BA79 /* Solution76.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution76.swift; sourceTree = "<group>"; };
+		B8ADC94321A2D51F00EB19FC /* LeetPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetPractice; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8ADC94621A2D51F00EB19FC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B8ADC94E21A2D58B00EB19FC /* Pasted Graphic.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pasted Graphic.tiff"; sourceTree = "<group>"; };
+		B8ADC94F21A2D5B800EB19FC /* Solution7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution7.swift; sourceTree = "<group>"; };
+		B8ADC95221A2DD1500EB19FC /* Pasted Graphic 1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pasted Graphic 1.tiff"; sourceTree = "<group>"; };
+		B8ADC95321A2DD2F00EB19FC /* Solution_8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_8.swift; sourceTree = "<group>"; };
+		B8ADC95621A2DEA300EB19FC /* StringSubIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringSubIndex.swift; sourceTree = "<group>"; };
+		B8B0A32A21A433650003C3F1 /* Pasted Graphic.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pasted Graphic.tiff"; sourceTree = "<group>"; };
+		B8B0A32B21A433760003C3F1 /* Solution28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution28.swift; sourceTree = "<group>"; };
+		B8B0A32E21A577EB0003C3F1 /* Pasted Graphic 1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pasted Graphic 1.tiff"; sourceTree = "<group>"; };
+		B8B0A32F21A577FE0003C3F1 /* Solution36.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution36.swift; sourceTree = "<group>"; };
+		B8B0A33221A5805D0003C3F1 /* Pasted Graphic 4.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pasted Graphic 4.tiff"; sourceTree = "<group>"; };
+		B8B0A33321A580740003C3F1 /* Solution54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution54.swift; sourceTree = "<group>"; };
+		B8B0A38921A670C80003C3F1 /* Pasted Graphic 5.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pasted Graphic 5.tiff"; sourceTree = "<group>"; };
+		B8B0A38A21A670E50003C3F1 /* Solution53.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution53.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8ADC94021A2D51F00EB19FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B85B137621A7C3EC00F32798 /* Question55 */ = {
+			isa = PBXGroup;
+			children = (
+				B85B137921A7C42800F32798 /* WX20181123-131401.png */,
+				B85B137721A7C40200F32798 /* Solution55.swift */,
+			);
+			path = Question55;
+			sourceTree = "<group>";
+		};
+		B85B137A21A7C8E300F32798 /* Question56 */ = {
+			isa = PBXGroup;
+			children = (
+				B85B137B21A7C90C00F32798 /* WX20181123-133440.png */,
+				B85B137C21A7C91F00F32798 /* Solution56.swift */,
+			);
+			path = Question56;
+			sourceTree = "<group>";
+		};
+		B85B137E21A7CC8900F32798 /* Question62 */ = {
+			isa = PBXGroup;
+			children = (
+				B85B137F21A7CCC400F32798 /* WX20181123-135018.png */,
+				B85B138021A7CCCF00F32798 /* Solution62.swift */,
+			);
+			path = Question62;
+			sourceTree = "<group>";
+		};
+		B86A79B521AEA82D00CCD41A /* Question78 */ = {
+			isa = PBXGroup;
+			children = (
+				B86A79B621AEA85400CCD41A /* 企业微信截图_9ea85010-c768-477d-a708-7176aa347e52.png */,
+				B86A79B721AEA86E00CCD41A /* Solution78.swift */,
+			);
+			path = Question78;
+			sourceTree = "<group>";
+		};
+		B86A79B921AEB4D000CCD41A /* Question79 */ = {
+			isa = PBXGroup;
+			children = (
+				B86A79BC21AEB4E700CCD41A /* 企业微信截图_444eb2c8-59ef-4e53-825b-54c6ff169fbc.png */,
+				B86A79BA21AEB4DE00CCD41A /* Solution79.swift */,
+			);
+			path = Question79;
+			sourceTree = "<group>";
+		};
+		B86A79E621B0F1AC00CCD41A /* Question118 */ = {
+			isa = PBXGroup;
+			children = (
+				B86A79E721B0F1D000CCD41A /* 企业微信截图_fdb504ac-4832-438e-b4a7-55539ff16539.png */,
+				B86A79E821B0F1E300CCD41A /* Solution118.swift */,
+			);
+			path = Question118;
+			sourceTree = "<group>";
+		};
+		B86A79EA21B0F9DA00CCD41A /* Question119 */ = {
+			isa = PBXGroup;
+			children = (
+				B86A79EB21B0F9EF00CCD41A /* 企业微信截图_6499206f-5f95-4c1b-8a1b-2e3312b4651f.png */,
+				B86A79EC21B0F9FC00CCD41A /* Solution119.swift */,
+			);
+			path = Question119;
+			sourceTree = "<group>";
+		};
+		B86A79EE21B15E6F00CCD41A /* Question94 */ = {
+			isa = PBXGroup;
+			children = (
+				B86A79EF21B15E9100CCD41A /* 企业微信截图_1bfdae79-c111-4a1c-b32e-5022ad654804.png */,
+				B86A79F021B15EA000CCD41A /* Solution94.swift */,
+			);
+			path = Question94;
+			sourceTree = "<group>";
+		};
+		B86A79F221B161F700CCD41A /* Question91 */ = {
+			isa = PBXGroup;
+			children = (
+				B86A79F321B1620400CCD41A /* 企业微信截图_1b79d0ce-7e2a-4a11-9adf-6ba622bc2180.png */,
+				B86A79F421B1620F00CCD41A /* Solution91.swift */,
+			);
+			path = Question91;
+			sourceTree = "<group>";
+		};
+		B86A7A1C21B4FB8000CCD41A /* Question96 */ = {
+			isa = PBXGroup;
+			children = (
+				B86A7A1D21B4FBA400CCD41A /* 企业微信截图_942e9453-ce79-412c-983e-8acdb7e4d330.png */,
+				B86A7A1E21B4FBB000CCD41A /* Solution96.swift */,
+			);
+			path = Question96;
+			sourceTree = "<group>";
+		};
+		B86A7A2021B4FE6B00CCD41A /* Question100 */ = {
+			isa = PBXGroup;
+			children = (
+				B86A7A2421B4FEC600CCD41A /* 企业微信截图_d08ecd07-d9a8-4c28-b725-276363106ebe.png */,
+				B86A7A2521B4FED800CCD41A /* Solution100.swift */,
+			);
+			path = Question100;
+			sourceTree = "<group>";
+		};
+		B86A7A2121B4FE7C00CCD41A /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				B86A7A2221B4FE8800CCD41A /* Tree.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		B86A7A2721B5004900CCD41A /* Question103 */ = {
+			isa = PBXGroup;
+			children = (
+				B86A7A2821B500AA00CCD41A /* 企业微信截图_2a9ecab2-4367-4cef-802e-aff9a0aa36ee.png */,
+				B86A7A2921B500B700CCD41A /* Solution103.swift */,
+			);
+			path = Question103;
+			sourceTree = "<group>";
+		};
+		B8711A3221AC18C20060BA79 /* Question66 */ = {
+			isa = PBXGroup;
+			children = (
+				B8711A3321AC18ED0060BA79 /* 企业微信截图_9e2dd64a-ef2a-46b6-b509-60caf6f8e080.png */,
+				B8711A3421AC18FD0060BA79 /* Solution66.swift */,
+			);
+			path = Question66;
+			sourceTree = "<group>";
+		};
+		B8711A3621AC1EF60060BA79 /* Question69 */ = {
+			isa = PBXGroup;
+			children = (
+				B8711A3721AC1F1F0060BA79 /* 企业微信截图_cbf31daf-40c5-4120-a3d4-b4bee987644a.png */,
+				B8711A3821AC1F2A0060BA79 /* Solution69.swift */,
+			);
+			path = Question69;
+			sourceTree = "<group>";
+		};
+		B8711A8F21AD5DBE0060BA79 /* Question70 */ = {
+			isa = PBXGroup;
+			children = (
+				B8711A9021AD5DCB0060BA79 /* 企业微信截图_15c5b00e-e07e-49f5-830c-d4a7e694f307.png */,
+				B8711A9121AD5DDA0060BA79 /* Solution70.swift */,
+			);
+			path = Question70;
+			sourceTree = "<group>";
+		};
+		B8711A9321AD61C60060BA79 /* Question75 */ = {
+			isa = PBXGroup;
+			children = (
+				B8711A9421AD61D10060BA79 /* 企业微信截图_e15cae01-b795-4228-8af9-548db42357e6.png */,
+				B8711A9521AD61DF0060BA79 /* Solution75.swift */,
+			);
+			path = Question75;
+			sourceTree = "<group>";
+		};
+		B8711A9721AE43030060BA79 /* Question76 */ = {
+			isa = PBXGroup;
+			children = (
+				B8711A9821AE43120060BA79 /* 企业微信截图_fcfe0a56-2fc0-4b66-b115-388676b383f7.png */,
+				B8711A9921AE43230060BA79 /* Solution76.swift */,
+			);
+			path = Question76;
+			sourceTree = "<group>";
+		};
+		B8ADC93A21A2D51F00EB19FC = {
+			isa = PBXGroup;
+			children = (
+				B86A7A2721B5004900CCD41A /* Question103 */,
+				B86A7A2121B4FE7C00CCD41A /* Public */,
+				B86A7A2021B4FE6B00CCD41A /* Question100 */,
+				B86A7A1C21B4FB8000CCD41A /* Question96 */,
+				B86A79F221B161F700CCD41A /* Question91 */,
+				B86A79EE21B15E6F00CCD41A /* Question94 */,
+				B86A79EA21B0F9DA00CCD41A /* Question119 */,
+				B86A79E621B0F1AC00CCD41A /* Question118 */,
+				B86A79B921AEB4D000CCD41A /* Question79 */,
+				B86A79B521AEA82D00CCD41A /* Question78 */,
+				B8711A9721AE43030060BA79 /* Question76 */,
+				B8711A9321AD61C60060BA79 /* Question75 */,
+				B8711A8F21AD5DBE0060BA79 /* Question70 */,
+				B8711A3621AC1EF60060BA79 /* Question69 */,
+				B8711A3221AC18C20060BA79 /* Question66 */,
+				B85B137E21A7CC8900F32798 /* Question62 */,
+				B85B137A21A7C8E300F32798 /* Question56 */,
+				B85B137621A7C3EC00F32798 /* Question55 */,
+				B8B0A38821A670A90003C3F1 /* Question53 */,
+				B8B0A33121A580310003C3F1 /* Question54 */,
+				B8B0A32D21A577AC0003C3F1 /* Question36 */,
+				B8B0A32921A433490003C3F1 /* Question_28 */,
+				B8ADC95521A2DE8D00EB19FC /* Util */,
+				B8ADC95121A2DCED00EB19FC /* Question_8 */,
+				B8ADC94D21A2D53B00EB19FC /* Question_7 */,
+				B8ADC94521A2D51F00EB19FC /* LeetPractice */,
+				B8ADC94421A2D51F00EB19FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8ADC94421A2D51F00EB19FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8ADC94321A2D51F00EB19FC /* LeetPractice */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8ADC94521A2D51F00EB19FC /* LeetPractice */ = {
+			isa = PBXGroup;
+			children = (
+				B8ADC94621A2D51F00EB19FC /* main.swift */,
+			);
+			path = LeetPractice;
+			sourceTree = "<group>";
+		};
+		B8ADC94D21A2D53B00EB19FC /* Question_7 */ = {
+			isa = PBXGroup;
+			children = (
+				B8ADC94E21A2D58B00EB19FC /* Pasted Graphic.tiff */,
+				B8ADC94F21A2D5B800EB19FC /* Solution7.swift */,
+			);
+			path = Question_7;
+			sourceTree = "<group>";
+		};
+		B8ADC95121A2DCED00EB19FC /* Question_8 */ = {
+			isa = PBXGroup;
+			children = (
+				B8ADC95221A2DD1500EB19FC /* Pasted Graphic 1.tiff */,
+				B8ADC95321A2DD2F00EB19FC /* Solution_8.swift */,
+			);
+			path = Question_8;
+			sourceTree = "<group>";
+		};
+		B8ADC95521A2DE8D00EB19FC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B8ADC95621A2DEA300EB19FC /* StringSubIndex.swift */,
+				B86A79B121AE913200CCD41A /* IntCustomOperator.swift */,
+				B86A79B321AE944100CCD41A /* DictionaryRegisterValue.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B8B0A32921A433490003C3F1 /* Question_28 */ = {
+			isa = PBXGroup;
+			children = (
+				B8B0A32A21A433650003C3F1 /* Pasted Graphic.tiff */,
+				B8B0A32B21A433760003C3F1 /* Solution28.swift */,
+			);
+			path = Question_28;
+			sourceTree = "<group>";
+		};
+		B8B0A32D21A577AC0003C3F1 /* Question36 */ = {
+			isa = PBXGroup;
+			children = (
+				B8B0A32E21A577EB0003C3F1 /* Pasted Graphic 1.tiff */,
+				B8B0A32F21A577FE0003C3F1 /* Solution36.swift */,
+			);
+			path = Question36;
+			sourceTree = "<group>";
+		};
+		B8B0A33121A580310003C3F1 /* Question54 */ = {
+			isa = PBXGroup;
+			children = (
+				B8B0A33221A5805D0003C3F1 /* Pasted Graphic 4.tiff */,
+				B8B0A33321A580740003C3F1 /* Solution54.swift */,
+			);
+			path = Question54;
+			sourceTree = "<group>";
+		};
+		B8B0A38821A670A90003C3F1 /* Question53 */ = {
+			isa = PBXGroup;
+			children = (
+				B8B0A38921A670C80003C3F1 /* Pasted Graphic 5.tiff */,
+				B8B0A38A21A670E50003C3F1 /* Solution53.swift */,
+			);
+			path = Question53;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8ADC94221A2D51F00EB19FC /* LeetPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8ADC94A21A2D51F00EB19FC /* Build configuration list for PBXNativeTarget "LeetPractice" */;
+			buildPhases = (
+				B8ADC93F21A2D51F00EB19FC /* Sources */,
+				B8ADC94021A2D51F00EB19FC /* Frameworks */,
+				B8ADC94121A2D51F00EB19FC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetPractice;
+			productName = LeetPractice;
+			productReference = B8ADC94321A2D51F00EB19FC /* LeetPractice */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8ADC93B21A2D51F00EB19FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lunli;
+				TargetAttributes = {
+					B8ADC94221A2D51F00EB19FC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B8ADC93E21A2D51F00EB19FC /* Build configuration list for PBXProject "LeetPractice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8ADC93A21A2D51F00EB19FC;
+			productRefGroup = B8ADC94421A2D51F00EB19FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8ADC94221A2D51F00EB19FC /* LeetPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8ADC93F21A2D51F00EB19FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B0A38B21A670E50003C3F1 /* Solution53.swift in Sources */,
+				B8711A9221AD5DDA0060BA79 /* Solution70.swift in Sources */,
+				B8711A3921AC1F2A0060BA79 /* Solution69.swift in Sources */,
+				B8B0A33421A580740003C3F1 /* Solution54.swift in Sources */,
+				B86A7A1F21B4FBB000CCD41A /* Solution96.swift in Sources */,
+				B85B137821A7C40200F32798 /* Solution55.swift in Sources */,
+				B86A79B221AE913200CCD41A /* IntCustomOperator.swift in Sources */,
+				B8711A9A21AE43230060BA79 /* Solution76.swift in Sources */,
+				B86A79F121B15EA000CCD41A /* Solution94.swift in Sources */,
+				B8ADC95721A2DEA300EB19FC /* StringSubIndex.swift in Sources */,
+				B86A7A2621B4FED800CCD41A /* Solution100.swift in Sources */,
+				B86A79E921B0F1E300CCD41A /* Solution118.swift in Sources */,
+				B86A7A2321B4FE8800CCD41A /* Tree.swift in Sources */,
+				B86A79F521B1620F00CCD41A /* Solution91.swift in Sources */,
+				B86A79B421AE944100CCD41A /* DictionaryRegisterValue.swift in Sources */,
+				B8711A3521AC18FD0060BA79 /* Solution66.swift in Sources */,
+				B8B0A33021A577FE0003C3F1 /* Solution36.swift in Sources */,
+				B85B137D21A7C91F00F32798 /* Solution56.swift in Sources */,
+				B86A79BB21AEB4DE00CCD41A /* Solution79.swift in Sources */,
+				B8ADC95021A2D5B800EB19FC /* Solution7.swift in Sources */,
+				B85B138121A7CCCF00F32798 /* Solution62.swift in Sources */,
+				B8ADC94721A2D51F00EB19FC /* main.swift in Sources */,
+				B8711A9621AD61DF0060BA79 /* Solution75.swift in Sources */,
+				B86A79B821AEA86E00CCD41A /* Solution78.swift in Sources */,
+				B8B0A32C21A433760003C3F1 /* Solution28.swift in Sources */,
+				B86A7A2A21B500B700CCD41A /* Solution103.swift in Sources */,
+				B86A79ED21B0F9FC00CCD41A /* Solution119.swift in Sources */,
+				B8ADC95421A2DD2F00EB19FC /* Solution_8.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B8ADC94821A2D51F00EB19FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8ADC94921A2D51F00EB19FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B8ADC94B21A2D51F00EB19FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35E4STCACH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		B8ADC94C21A2D51F00EB19FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35E4STCACH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8ADC93E21A2D51F00EB19FC /* Build configuration list for PBXProject "LeetPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8ADC94821A2D51F00EB19FC /* Debug */,
+				B8ADC94921A2D51F00EB19FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8ADC94A21A2D51F00EB19FC /* Build configuration list for PBXNativeTarget "LeetPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8ADC94B21A2D51F00EB19FC /* Debug */,
+				B8ADC94C21A2D51F00EB19FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8ADC93B21A2D51F00EB19FC /* Project object */;
+}
