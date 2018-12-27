@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B86A7A3821B5082700CCD41A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B86A7A3721B5082700CCD41A /* main.cpp */; };
+		B86A7A4221B508E700CCD41A /* public.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B86A7A4021B508E700CCD41A /* public.cpp */; };
+		B86A7A4521B5094400CCD41A /* S297.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B86A7A4321B5094400CCD41A /* S297.cpp */; };
+		B889942D21C267FD00CE00C7 /* S63.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B889942B21C267FD00CE00C7 /* S63.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		B86A7A3421B5082700CCD41A /* leetcode_solution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_solution; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86A7A3721B5082700CCD41A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B86A7A4021B508E700CCD41A /* public.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = public.cpp; sourceTree = "<group>"; };
+		B86A7A4121B508E700CCD41A /* public.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = public.hpp; sourceTree = "<group>"; };
+		B86A7A4321B5094400CCD41A /* S297.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = S297.cpp; sourceTree = "<group>"; };
+		B86A7A4421B5094400CCD41A /* S297.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = S297.hpp; sourceTree = "<group>"; };
+		B86A7A4621B5097A00CCD41A /* Serialize and Deserialize Binary Tree - LeetCode.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Serialize and Deserialize Binary Tree - LeetCode.pdf"; sourceTree = "<group>"; };
+		B889942B21C267FD00CE00C7 /* S63.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = S63.cpp; sourceTree = "<group>"; };
+		B889942C21C267FD00CE00C7 /* S63.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = S63.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,40 @@
 		B86A7A3621B5082700CCD41A /* leetcode_solution */ = {
 			isa = PBXGroup;
 			children = (
+				B889942A21C267E400CE00C7 /* S63 */,
+				B86A7A3F21B508D100CCD41A /* PublicDefine */,
+				B86A7A3E21B508C500CCD41A /* S297 */,
 				B86A7A3721B5082700CCD41A /* main.cpp */,
+				B889942B21C267FD00CE00C7 /* S63.cpp */,
+				B889942C21C267FD00CE00C7 /* S63.hpp */,
 			);
 			path = leetcode_solution;
+			sourceTree = "<group>";
+		};
+		B86A7A3E21B508C500CCD41A /* S297 */ = {
+			isa = PBXGroup;
+			children = (
+				B86A7A4621B5097A00CCD41A /* Serialize and Deserialize Binary Tree - LeetCode.pdf */,
+				B86A7A4321B5094400CCD41A /* S297.cpp */,
+				B86A7A4421B5094400CCD41A /* S297.hpp */,
+			);
+			path = S297;
+			sourceTree = "<group>";
+		};
+		B86A7A3F21B508D100CCD41A /* PublicDefine */ = {
+			isa = PBXGroup;
+			children = (
+				B86A7A4021B508E700CCD41A /* public.cpp */,
+				B86A7A4121B508E700CCD41A /* public.hpp */,
+			);
+			path = PublicDefine;
+			sourceTree = "<group>";
+		};
+		B889942A21C267E400CE00C7 /* S63 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = S63;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B889942D21C267FD00CE00C7 /* S63.cpp in Sources */,
+				B86A7A4521B5094400CCD41A /* S297.cpp in Sources */,
+				B86A7A4221B508E700CCD41A /* public.cpp in Sources */,
 				B86A7A3821B5082700CCD41A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

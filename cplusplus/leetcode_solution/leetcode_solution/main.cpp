@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
+#include "S63.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    Solution63 s;
+    
+    std::cout << s.uniquePathsWithObstacles();
     return 0;
 }
